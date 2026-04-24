@@ -1,58 +1,47 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🚀 Portfólio / Landing Page
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Bem-vindo ao repositório do meu portfólio pessoal e Landing Page!
+Este projeto foi desenvolvido como um laboratório prático para demonstrar meus estudos e habilidades no desenvolvimento web moderno, com foco em back-end estruturado e front-end responsivo.
 
-## About Laravel
+## 🎯 Sobre o Projeto
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+O objetivo desta Landing Page é servir como meu cartão de visitas digital, apresentando quem sou, minhas habilidades e formas de contato.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Mais do que uma página estática, construí este projeto utilizando a arquitetura do **Laravel**, organizando a interface através de **Componentes Blade** para manter o código limpo, reaproveitável e sustentável. A estilização 100% customizada foi feita utilizando **Tailwind CSS**.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 🛠️ Tecnologias Utilizadas
 
-## Learning Laravel
+A stack principal deste projeto é composta pelas seguintes tecnologias e ferramentas:
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- **[Laravel](https://laravel.com/):** Framework PHP utilizado para a estrutura, roteamento (`routes/web.php`) e componentização (Blade).
+- **[Tailwind CSS](https://tailwindcss.com/):** Framework CSS utilitário para criações de interfaces fluidas, responsivas e modernas.
+- **[MySQL](https://www.mysql.com/):** Banco de dados relacional configurado para futuras persistências de dados (formulários, leads, etc).
+- **[Vite](https://vitejs.dev/):** Ferramenta de build incrivelmente rápida para compilação dos assets (CSS/JS) no Laravel.
+- **[Vanta.js](https://www.vantajs.com/) / Three.js:** Bibliotecas JavaScript utilizadas para criar o fundo (background) 3D interativo presente em toda a aplicação.
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## ✨ Funcionalidades em Destaque
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+- **Componentização Blade:** A interface está dividida em pedaços lógicos (`<x-header />`, `<x-home />`, `<x-about />`, `<x-contact />`, `<x-footer />`), demonstrando boas práticas de organização de código.
+- **Design Responsivo (Mobile First):** A página se adapta perfeitamente a celulares, tablets e computadores, utilizando os breakpoints do Tailwind.
+- **Integrações de Contato Externo:**
+    - Botão dinâmico utilizando a API do WhatsApp para início rápido de conversas.
+    - Botão configurado com parâmetros webmail (Gmail API) para abrir mensagens com o endereço de destino já preenchido.
+- **UI/UX Moderna:** Elementos com efeitos de _Glassmorphism_ (fundo de vidro translúcido) e micro-interações (`hover`, `transition-all`) nos botões e links.
 
-## Agentic Development
+## ⚙️ Como rodar o projeto localmente
 
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+Se você deseja fazer um clone deste repositório e rodar o projeto na sua máquina, siga os passos abaixo:
 
-```bash
-composer require laravel/boost --dev
+### Pré-requisitos
 
-php artisan boost:install
-```
+- [PHP](https://www.php.net/) ^8.2
+- [Composer](https://getcomposer.org/)
+- [Node.js](https://nodejs.org/) & NPM
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+### Passo a passo
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+1. **Clone o repositório:**
+    ```bash
+    git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
+    cd SEU-REPOSITORIO
+    ```
